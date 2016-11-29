@@ -5,7 +5,13 @@
 .card,
 .card-footer{
     background-color: #FFFFA5;
-    border: node;
+    border: none;
+}
+
+.card.completed,
+.card.completed .card-footer{
+    background-color: #EEE;
+    color: #CCC;
 }
 
 .card-footer{
