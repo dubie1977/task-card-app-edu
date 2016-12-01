@@ -24,3 +24,9 @@ i{
     color: #CC0000;
     padding-right: .5rem;
 }
+
+
+#delete{
+    color: #CC0000;
+    text-align: right;
+}

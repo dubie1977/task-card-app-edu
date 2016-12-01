@@ -5,8 +5,6 @@ import { Task } from '../model/task';
 @Component({
     moduleId: module.id,
     selector: 'app-card',
-    //templateUrl: 'app/card/card.component.html',
-    //styleUrls: [ 'app/card/card.component.css' ]
 
     templateUrl: 'card.component.html',
     styleUrls: [ 'card.component.css' ]
@@ -16,6 +14,10 @@ export class CardComponent{
 
     statusToggle(){
         this.task.completed = !this.task.completed;
+    }
+
+    deleteTask(){
+        this.task.deleted = true;
     }
 
 } 
